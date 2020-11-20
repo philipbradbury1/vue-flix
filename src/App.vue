@@ -1,16 +1,29 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <navigation></navigation>
+  <hero></hero>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
+
+  data(){
+    return {
+      movieData: [
+        {
+          "id": 550,
+          "original_title": "Fight Club",
+          "title": "Fight Club",
+        }
+        
+
+      ]
+
+    }
+
   }
+ 
 }
 </script>
 
