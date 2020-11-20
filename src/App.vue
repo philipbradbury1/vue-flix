@@ -2,6 +2,8 @@
   <navigation></navigation>
   <hero></hero>
 
+
+
 </template>
 
 <script>
