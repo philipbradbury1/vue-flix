@@ -1,8 +1,9 @@
 <template>
-    <nav>
+    <nav class="col-6">
         <ul>
             <li>Home</li>
-            <li>Browse</li>
+            <li>Series</li>
+            <li>Movies</li>
             <li>My Films</li>
         </ul>
     </nav>
@@ -16,5 +17,18 @@ export default {
 </script>
 
 <style scoped>
+
+nav{
+
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+    padding: 20px;
+}
 
 </style>
