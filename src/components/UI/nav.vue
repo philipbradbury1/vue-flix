@@ -18,9 +18,6 @@ export default {
 
 <style scoped>
 
-nav{
-
-}
 
 ul{
     list-style: none;
